@@ -1,0 +1,203 @@
+body {
+	background: #282828;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	animation: Gradient 15s ease infinite;
+}
+@-webkit-keyframes Gradient{
+	0%{
+		background-position: 0% 50%
+	}
+	50%{
+		background-position: 100% 50%
+	}
+	100%{
+		background-position: 0% 50%
+	}
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	color: #f2f2f2;
+	box-sizing: border-box;
+	font-family: 'Poppins';
+}
+nav{
+	background: black;
+	padding: 10px 40px 10px 70px; 
+}
+nav ul{
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+nav ul div.text{
+	display: inline-flex;
+	position: absolute;
+
+}
+nav ul div.text a{
+	text-decoration : none;
+	display: block;
+	padding: 17px;
+	font-size:17px;
+
+}
+
+nav ul div.text a:hover{
+	background: #3f4448;
+	transition : 0.4s;
+}
+
+nav ul .search{
+	height: 40px;
+	width: 220px;
+	display: flex;
+	background: #f2f2f2;
+	border-radius: 5px;
+	margin-left: 70%;
+}
+
+nav ul .search input{
+	height: 100%;
+	width: 200px;
+	border: none;
+	outline: none;
+	padding: 0 9px;
+	color: #000;
+	border-radius: 5px 0 0 5px;
+
+}  
+
+nav ul .search .icon{
+	height: 100%;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #cccccc;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+
+}
+
+nav ul .search .icon:hover{
+	background: #f08080;
+}
+
+nav ul .search .icon span{
+	color: #222222;
+	font-size: 18px;
+
+}
+nav ul div.ASA{
+	display: inline-flex;
+	font-size: 18px;
+    margin-left: 30px; 
+}
+nav ul div.ASA a{
+	text-decoration: none;
+}
+
+nav ul .cart .fa{
+	margin-left: 20px;
+	font-size: 25px;
+}
+.nav ul
+{
+	list-style : none;
+	text-align : center;
+	padding:0;
+	margin :0;
+}
+.nav li{
+	display : inline-block;
+}
+
+.nav a{
+	text-decoration : none;
+	color : #000000;
+	width : 100px;
+	display: block;
+	padding: 15px;
+	font-size:17px;
+	font-family : Helvetica;
+}
+
+.nav a:hover
+{
+	background: #fff;
+	transition : 0.4s;
+}
+.Social-Menu ul{
+	position: absolute;
+	top:50%;
+	left:50%;
+	padding:0;
+	margin:0;
+	transform:translate(-50%, -50%);
+	display:flex;
+}
+.Social-Menu ul li{
+		list-style:none;
+		margin: 0 15px;
+}
+.Social-Menu ul li .fa {
+		font-size:70px;
+		line-height:95px;
+		transition:.6s;
+		color:#000;
+		
+}
+.Social-Menu ul li .fa:hover {
+	color: #fff;
+}
+.Social-Menu ul li a{
+	position: relative;
+	display: block;
+	width: 105px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: #fff;
+	text-align: center;
+	transition: .6s;
+	box-shadow: 0 5px 4px rgba(0,0,0,5);
+}
+.Social-Menu ul li a:hover{
+	transform: translate(0, -10px);
+}
+.Social-Menu ul li:nth-child(1) a:hover{
+	background-color: #3b5999;
+}
+.Social-Menu ul li:nth-child(2) a:hover{
+	background-color: #e4405f;
+}
+.Social-Menu ul li:nth-child(3) a:hover{
+	background-color: #55acee;
+}
+.Social-Menu ul li:nth-child(4) a:hover{
+	background-color: #cd201f;
+}
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+

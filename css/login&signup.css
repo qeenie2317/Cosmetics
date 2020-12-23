@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #f2f2f2;
+	box-sizing: border-box;
+
+}
+
+nav{
+	background: black;
+	padding: 10px 40px 10px 70px; 
+}
+nav ul{
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+nav ul div.text{
+	display: inline-flex;
+	position: absolute;
+
+}
+nav ul div.text a{
+	text-decoration : none;
+	display: block;
+	padding: 17px;
+	font-size:17px;
+	font-family: 'Poppins';
+
+}
+
+nav ul div.text a:hover{
+	background: #3f4448;
+	transition : 0.4s;
+}
+
+nav ul .search{
+	height: 40px;
+	width: 220px;
+	display: flex;
+	background: #f2f2f2;
+	border-radius: 5px;
+	margin-left: 70%;
+}
+
+nav ul .search input{
+	height: 100%;
+	width: 200px;
+	border: none;
+	outline: none;
+	padding: 0 9px;
+	color: #000;
+	border-radius: 5px 0 0 5px;
+
+}  
+
+nav ul .search .icon{
+	height: 100%;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #cccccc;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+
+}
+
+nav ul .search .icon:hover{
+	background: #f08080;
+}
+
+nav ul .search .icon span{
+	color: #222222;
+	font-size: 18px;
+
+}
+nav ul div.ASA{
+	display: inline-flex;
+	font-size: 18px;
+    margin-left: 30px; 
+}
+nav ul div.ASA a{
+	text-decoration: none;
+	font-family: 'Poppins';
+}
+
+nav ul .cart .fa{
+	margin-left: 20px;
+	font-size: 25px;
+}
+body{
+	background-image: url(../bg.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.login-page{
+	width: 360px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+.form{
+	position: relative;
+	z-index: 1;
+	background: white;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+}
+
+.form input{
+	
+	font-family: "Roboto", sans-serif;
+	outline:none;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+	color: black;
+	
+}
+.form button{
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: none;
+	background: #F08080;
+	width:100% ;
+	border: 0;
+	padding:15px;
+	color:#FFFFFF;
+	font-size:14px;
+	cursor:pointer;
+	
+}
+.form button:hover,.form button:active{
+	background: #F08080;
+
+}
+.form .message{
+	margin: 15px 0 0;
+	color: black;
+	font-size: 14px;
+}
+.form .message a{
+	color: blue;
+	text-decoration: none;
+}

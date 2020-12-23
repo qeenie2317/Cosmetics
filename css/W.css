@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: white;
+	box-sizing: border-box;
+}
+
+
+nav{
+	background: black;
+	padding: 10px 40px 10px 70px; 
+}
+nav ul{
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+nav ul div.text{
+	display: inline-flex;
+	position: absolute;
+
+}
+nav ul div.text a{
+	text-decoration : none;
+	display: block;
+	padding: 17px;
+	font-size:17px;
+	font-family: 'Poppins';
+}
+
+}
+
+nav ul div.text a:hover{
+	background: #3f4448;
+	transition : 0.4s;
+}
+
+nav ul .search{
+	height: 40px;
+	width: 220px;
+	display: flex;
+	background: #f2f2f2;
+	border-radius: 5px;
+	margin-left: 70%;
+}
+
+nav ul .search input{
+	height: 100%;
+	width: 200px;
+	border: none;
+	outline: none;
+	padding: 0 9px;
+	color: #000;
+	border-radius: 5px 0 0 5px;
+
+}  
+
+nav ul .search .icon{
+	height: 100%;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #cccccc;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+
+}
+
+nav ul .search .icon:hover{
+	background: #f08080;
+}
+
+nav ul .search .icon span{
+	color: #222222;
+	font-size: 18px;
+
+}
+nav ul div.ASA{
+	display: inline-flex;
+	font-size: 18px;
+    margin-left: 30px; 
+}
+nav ul div.ASA a{
+	text-decoration: none;
+	font-family: 'Poppins';
+}
+
+nav ul .cart .fa{
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+.cart-page{
+
+margin: 80px auto;
+}
+
+.TB img{
+	height: 500px;
+	width: 480px;
+	margin-left: 10%;
+	margin-top: 5%;
+
+}
+
+
+#tbi {
+color:rgb(254,148,135);
+font-size: 50px;
+text-align: center;
+margin-left: 40%;
+margin-top: -480px;
+font-family: 'Sansita Swashed', cursive;
+}
+.button {
+  background-color: black; 
+  color: white;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 60%;
+  margin-top: 1%;
+  width: 20%;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.btn1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid black;
+}
+.btn1:hover {
+  background-color: black;
+  color: white;
+}
+h1{
+	color: black;
+	margin-left: 54%;
+	margin-top: 3px;
+}
+
+h2{
+	color: black;
+	margin-left: 54%;
+	margin-top: 14px;
+}
+p{
+	color: black;
+	margin-left: 54%;
+	margin-top: 14px;
+	font-size: 20px;
+}
+h2, p {
+	font-family: 'Josefin Sans', sans-serif;
+}
